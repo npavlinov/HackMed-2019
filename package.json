@@ -1,0 +1,22 @@
+{
+  "name": "HackMed-2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js"
+  },
+  "repository": "https://github.com/npavlinov/HackMed-2019.git",
+  "author": "npavlinov <nplyubomirov1@sheffield.ac.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2",
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
+  }
+}
