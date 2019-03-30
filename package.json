@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server/bin/www"
+    "start": "babel-node server/bin/www"
   },
   "repository": "https://github.com/npavlinov/HackMed-2019.git",
   "author": "npavlinov <nplyubomirov1@sheffield.ac.uk>",
