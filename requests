@@ -1,0 +1,6 @@
+https://ancient-spire-49378.herokuapp.com/webhook
+
+POST : curl -X GET "https://ancient-spire-49378.herokuapp.com/webhook?hub.verify_token=farmabot&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
+CHALLENGE_ACCEPTED
+
+GET : curl -H "Content-Type: application/json" -X POST "https://ancient-spire-49378.herokuapp.com/webhook" -d '{"object": "page", "entry": [{"messaging": [{"message": "TEST_MESSAGE"}]}]}'
